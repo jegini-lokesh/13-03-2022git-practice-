@@ -1,0 +1,67 @@
+1)javascript functions------------->function definition
+
+a)A JavaScript function is a block of code designed to perform a particular task.
+b)A JavaScript function is executed when "something" invokes it (calls it).
+
+2)javascript functions---------------->javascript syntax
+
+a)A JavaScript function is defined with the
+          function keyword,
+          followed by a name, 
+		  followed by parentheses ().
+
+b)Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+
+c)The parentheses may include parameter names separated by commas:
+(parameter1, parameter2, ...)
+
+d)The code to be executed, by the function, is placed inside curly brackets: {}
+
+       function name(parameter1, parameter2, parameter3) {
+              // code to be executed
+       }
+e)Function parameters are listed inside the parentheses () in the function definition.
+
+f)Function arguments are the values received by the function when it is invoked.
+
+g)Inside the function, the arguments (the parameters) behave as local variables.
+
+3)javascript function ----> Function Invocation (function call)
+ a)The code inside the function will execute when "something" invokes (calls) the function:
+
+ b)When an event occurs (when a user clicks a button) --i record video now in youtube
+ c)When it is invoked (called) from JavaScript code --i record video now in youtube
+ d)Automatically (self invoked) --i record video now in youtube
+ 
+4)javascript function -------------->Function Return
+ a)When JavaScript reaches a return statement, the function will stop executing.
+ b)Functions often compute a return value. The return value is "returned" back to the "caller":
+
+ d)Example
+	Calculate the product of two numbers, and return the result:
+
+	let x = myFunction(4, 3);   // Function is called, return value will end up in x
+
+	function myFunction(a, b) {
+	  return a * b;             // Function returns the product of a and b
+	}
+5)javascript functions ------------------------->Why Functions? (note point)
+    a)You can reuse code: Define the code once, and use it many times.
+    b)You can use the same code many times with different arguments, to produce different results.
+6) javascript-->() Operator Invokes the Function
+        Using the example above, toCelsius refers to the function object, and toCelsius() refers to the function result.
+        Accessing a function without () will return the function object instead of the function result.
+
+
+onclick=function1() ,function2() (here for function call we use we use onclick event and assign to on click with the help of equal to symbol
+
+1)(here for function call we use we use click event and assign to on click with in paranthities if more function call present we seperate with comma
+ $("#p1").hover(function(){
+  alert("You entered p1!");
+},
+function(){
+  alert("Bye! You now leave p1!");
+});
+-------------------in js----------------------------
+//call back functions.
+2)1) $("p").show();  -->when the dot is present in between two methods (selector.action  -->the action perform on particular selector ) (it is working principle of dot between two methods)

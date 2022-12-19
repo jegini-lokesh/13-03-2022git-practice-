@@ -1,0 +1,50 @@
+boldscholar key point
+---------------------------
+html--1)want to check container (for wrap a element like parent and child based on this only we can acheive good design for the page with some less time.
+css--
+1)give only two clasess to form selector to over right default styles for bootstrap. 
+2)if we want to give any styles for element (on that time also use two classes to form selector)
+3)one parent and one child (to form this we use sass concept)
+4)when we use two classes to form selector we can remove cleches.
+5)check alway our screen size should be 100% 
+6)we allways write media quries on botoom because secity for media query is some what less ,compare to normal selector.
+7)we can provide (container *) we can pass styles to inner child elements to check alignement(it is used find the width and height)
+8)units will play very import role for responsive design
+----------------bootstarp------------------
+1)instaded of using more css ,use bootstap class to the element. 
+-------------------------------------dev-tools------------------------------------------------------------
+1)for debug html (we use element tab ) -- for this code copy pase i know and also i will understand the flow
+2)for debug css we use (style tab and inspectstyle sheet) for this code copy pase i know and also i will understand the flow
+3)for debug javascript (we use console and source tab--this is used for checking varaible value) -->for this code copy pase i don't know and also i will not able to understand the flow
+4)for debug api we use network tab -->for this code copy pase i don't know and also i will not able to understand the flow
+-----------------------------------------------------------------------------------------------------------
+fullstack 
+----------------
+frontend/client side--javascript/html/css/jquery --full stack key points
+----------------------------
+2)backend/server side language -->node .js (it is not a frame work or programing language)
+-------------------
+3)database --(my sql)
+4)Api-my understand api is table data get from data base. reffer:- https://youtube.com/watch?v=RN4hIy7wNeA&feature=shares
+---------------------------------git-----------------
+1)here orgin phase-3 is parent from parent we create a branch that branch is child brach  (before create a child brach we want to take pull from parent)
+-------------------------15122022----------
+1)we can acess any machine by using ip:port(this two are seperated  by using colan symbol)
+2)for acess zeera we want website along with login credentials.
+3)zeera-->project-ticket-number--storypoint for each ticket -->if story point fails it become bug.
+4)http://172.18.5.30:4400/ remote
+5)172.0.0.1:4200
+6)epic is the ticket it consist all stoty poins for evey feature of project.
+7)if the test find any bug they create one ticket and map with the releted story point.
+8)how can we give two functions to a single button in laptop keyboard
+//key points1)we are always develop two dimensional website(which consist row and column)
+
+2)if we perfect in two dimensional logic every thing we will understand easily.
+
+3)for render dynamic data we use map function ,map function will work for single html structue it will provide same structure out put will different values
+
+4)want to study export and default concept
+
+5)why we use curly braces for component
+
+6)destructure of data what we send to component
